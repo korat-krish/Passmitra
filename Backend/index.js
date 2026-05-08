@@ -14,7 +14,7 @@ app.listen(port , ()=>{
     console.log(`serever listen on port http://localhost:${port}`)
 })
 app.get('/',(req,res)=>{
-    res.send("Welcome to passmitra pass");
+    res.send("Welcome to passmitra ");
 })
 
 app.use('/api/auth',authroute);
